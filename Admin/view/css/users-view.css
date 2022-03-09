@@ -1,0 +1,37 @@
+.user {
+	margin-left: 250px;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+.user th{
+	font-size: 18px;
+	text-align: left;
+	padding: 10px 25px;
+	background: #8256a8;
+	color: white;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.user td{
+	padding: 10px 25px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.user tr:nth-of-type(even) {
+	background: #f3f3f3;
+}
+
+.user tr a input {
+	background: #8256a8;
+	color: white;	
+	width: 50px;
+	height: 25px;
+}
+
+#name{
+	position: relative;
+	margin-left: 250px;
+	margin-top: 70px;
+	
+}

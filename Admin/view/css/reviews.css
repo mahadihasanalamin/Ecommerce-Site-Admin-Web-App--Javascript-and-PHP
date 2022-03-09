@@ -1,0 +1,39 @@
+.reviews-table {
+	margin-left: 250px;
+	margin-top: 0px;
+	
+}
+
+.reviews-table th{
+	font-size: 18px;
+	text-align: left;
+	padding: 10px 25px;
+	background: #8256a8;
+	color: white;
+}
+
+.reviews-table td{
+	padding: 10px 25px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.reviews-table tr:nth-of-type(even) {
+	background: #f3f3f3;
+}
+
+.reviews-table tr:hover {
+	background: #d4d4d4;
+}
+
+.reviews-table tr a input {
+	background: #8256a8;
+	color: white;	
+	width: 50px;
+	height: 25px;
+}
+#table_name{
+	
+	margin-left: 250px;
+	margin-top: 80px;
+	
+}

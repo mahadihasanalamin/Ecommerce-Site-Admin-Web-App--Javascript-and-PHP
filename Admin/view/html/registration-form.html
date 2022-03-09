@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<script src="../js/registration-form.js"></script>
+	<link rel="stylesheet" href="../css/registration-form-style.css">
+</head>
+<body style="background: lightslategray;">
+	<div class="registrationForm">
+		<h1>Registration</h1>
+		<form action="../../controller/registration-form-action.php" method="POST" name="registrationForm" onsubmit="return jsValidation(this);">
+
+			<div class="field">
+				<label for="firstname">First Name <span style="color: red;">*</span><span id="firstnameErr" style="color: red;"></span></label>
+				<br>
+				<input type="text" id="firstname" name="firstname">
+			</div>
+
+			<div class="field">
+				<label for="lastname">Last Name <span style="color: red;">*</span><span id="lastnameErr" style="color: red;"></span></label>
+				<br>
+				<input type="text" id="lastname" name="lastname">
+			</div>
+
+			<div class="field">
+				<label for="dob">DOB <span style="color: red;">*</span><span id="dobErr" style="color: red;"></span></label>
+				<br>
+				<input type="date" id="dob" name="dob">
+			</div>
+
+			<div class="radiofield">
+				<label for="gender">Gender <span style="color: red;">*</span><span id="genderErr" style="color: red;"></span></label>
+			</div>
+			<div class="subradiofield">
+				<input type="radio" id="male" name="gender" value="Male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="Female">
+				<label for="female">Female</label>
+			</div>
+
+			<div class="field">
+				<label for="address">Address<span style="color: red;">*</span><span id="addressErr" style="color: red;"></span></label>
+				<br>
+				<input type="text" id="address" name="address">
+			</div>
+
+			<div class="field">
+				<label for="phone">Phone<span style="color: red;">*</span><span id="phoneErr" style="color: red;"></span></label>
+				<br>
+				<input type="number" id="phone" name="phone">
+			</div>
+
+			<div class="field">
+				<label for="email">Email<span style="color: red;">*</span><span id="emailErr" style="color: red;"></span></label>
+				<br>
+				<input type="email" id="email" name="email">
+			</div>
+
+			<div class="field">
+				<label for="username">Username<span style="color: red;">*</span><span id="usernameErr" style="color: red;"></span></label>
+				<br>
+				<input type="text" id="username" name="username">
+			</div>
+
+			<div class="field">
+				<label for="password">Password<span style="color: red;">*</span><span id="passwordErr" style="color: red;"></span></label>
+				<br>
+				<input type="password" id="password" name="password">
+			</div>
+
+				<label for="usertype" hidden>User Type</label>
+				<input type="text" id="usertype" name="usertype" value="Admin" hidden>
+
+			<br><br>
+
+			<input type="submit" name="submit" value="Signup">
+
+			<div class="login">
+				Already have an account? <a href="login-form.html">Login</a>
+			</div>
+			<br>
+		</form>
+	</div>
+</body>
+</html>

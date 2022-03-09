@@ -1,0 +1,83 @@
+.registrationForm{
+	margin-top: 0px;
+	margin-left: 600px;
+	width: 400px;
+	border-radius: 10px;
+	background: white;
+}
+
+.registrationForm h1{
+	text-align: center;
+	padding: 20px 0;
+	border-bottom: 1px solid silver;
+}
+
+.field{
+	border-bottom: 2px solid #adadad;
+	margin: 30px;
+}
+
+.subradiofield{
+	border-bottom: 2px solid #adadad;
+	margin: 15px 30px;
+	padding-bottom: 10px;
+}
+
+.field label{
+	padding: 0 5px;
+	color: #2691d9;
+	font-size: 16px;
+}
+
+.radiofield label{
+	padding: 0 5px;
+	color: #2691d9;
+	font-size: 16px;
+	margin: 30px;
+}
+
+.field input{
+	width: 90%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="submit"]{
+	width: 85%;
+	height: 50px;
+	margin-left: 28px;
+	border: 1px solid;
+	background: #8256a8;
+	border-radius: 25px;
+	font-size: 18px;
+	color: #e9f4fb;
+	font-weight: 700;
+	cursor: pointer;
+	outline: none;
+}
+
+.login{
+	margin: 25px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+}
+
+.login a{
+	color: #2691d9;
+	text-decoration: none;
+}
+
+.login a:hover{
+	text-decoration: underline;
+}
